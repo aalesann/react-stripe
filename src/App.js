@@ -3,7 +3,6 @@ import { loadStripe } from '@stripe/stripe-js';
 import { Elements, CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 import axios from 'axios'
 import 'bootswatch/dist/lux/bootstrap.min.css';
-import './App.css';
 
 const stripePromise = loadStripe("pk_test_5ZVogOffJl7U1nve3RSN8wId00nSBik89H");
 
