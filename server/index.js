@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 
 // Secret key
-const stripe = new Stripe("sk_test_HwMQAkW0RJwqK8AVQz6irSKG00851Z3dkp");
+const stripe = new Stripe("");
 
 // Se habilita el orígen
 app.use(cors({ origin: 'http://localhost:3000' }));

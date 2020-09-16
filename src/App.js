@@ -4,7 +4,8 @@ import { Elements, CardElement, useStripe, useElements } from '@stripe/react-str
 import axios from 'axios'
 import 'bootswatch/dist/lux/bootstrap.min.css';
 
-const stripePromise = loadStripe("pk_test_5ZVogOffJl7U1nve3RSN8wId00nSBik89H");
+// Publick key
+const stripePromise = loadStripe("");
 
 const CheckoutForm = () => {
 
